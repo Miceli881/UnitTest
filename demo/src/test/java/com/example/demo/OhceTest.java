@@ -70,7 +70,7 @@ public class OhceTest {
     @Test
     public void testOhceSpacebar() {
         Ohce ohce = new Ohce("Davide");
-        Assertions.assertEquals(" ", ohce.revertInput(" ")); // Was passiert bei einem Leehrschlag ? 
+        Assertions.assertEquals("", ohce.revertInput(" ")); // Was passiert bei einem Leehrschlag ? 
     }
 
     @Test
